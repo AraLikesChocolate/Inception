@@ -1,0 +1,47 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+* { font-family: 'Nanum Gothic', sans-serif; }
+
+.spaceLeft {
+  margin-left: 10px;
+}
+.spaceRight {
+  margin-right: 10px;
+}
+
+/* custom checkbox */
+.btn span.fa {
+	opacity: 0;
+}
+.btn.active span.fa {
+	opacity: 1;
+}
+
+body{
+        padding: 40px;
+        background-image: url( "../images/about-bg.jpg" );
+      }
+      p {
+        padding: 30px;
+        font-size: 50px;
+        font-weight: bold;
+        opacity: 0.5;
+        text-align: center;
+        background-color: #ffffff
+      }
+      
+      h1 {
+        font-family: "Nanum Pen Script", sans-serif;
+        font-size: 100px;
+        color: white;
+      }     
+      label {
+        font-family: "Nanum Pen Script", sans-serif;
+        font-size: 30px;
+      }
+      .gender_radio {
+        font-family: "Nanum Pen Script", sans-serif; 
+        font-weight: bold;
+        font-size: 20px;
+      }    
+      
